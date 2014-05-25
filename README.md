@@ -7,6 +7,7 @@
 发送端与接收端通过Socket通信，传送JSON格式包装的通知消息。
 
 消息格式如下：
+
     public class NotifyMessage
     {
         public string VerifyCode;
@@ -14,6 +15,7 @@
         public string TipTitle;
         public string TipText;
     }
+
 转成JSON字符串后以UTF-8编码传送到接收端。
 
 接收端反向操作，还原出原始消息，并加以提醒。
