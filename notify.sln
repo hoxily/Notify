@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "notify", "notify\notify.csproj", "{B35CDCFD-519D-427C-AE9E-D57E329479BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotifyTest", "NotifyTest\NotifyTest.csproj", "{FC01C09F-77B5-4E4E-AB57-62A5A8CCC705}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B35CDCFD-519D-427C-AE9E-D57E329479BF}.Debug|x86.ActiveCfg = Debug|x86
+		{B35CDCFD-519D-427C-AE9E-D57E329479BF}.Debug|x86.Build.0 = Debug|x86
+		{B35CDCFD-519D-427C-AE9E-D57E329479BF}.Release|x86.ActiveCfg = Release|x86
+		{B35CDCFD-519D-427C-AE9E-D57E329479BF}.Release|x86.Build.0 = Release|x86
+		{FC01C09F-77B5-4E4E-AB57-62A5A8CCC705}.Debug|x86.ActiveCfg = Debug|x86
+		{FC01C09F-77B5-4E4E-AB57-62A5A8CCC705}.Debug|x86.Build.0 = Debug|x86
+		{FC01C09F-77B5-4E4E-AB57-62A5A8CCC705}.Release|x86.ActiveCfg = Release|x86
+		{FC01C09F-77B5-4E4E-AB57-62A5A8CCC705}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
